@@ -49,12 +49,12 @@ setup(
         'pandas>=1.0.0',
         'click>=7.0',
         'more-itertools>=8.2.0',
-        'morph-tool>=2.3.0',
         'lazy-object-proxy>=1.5.2',
     ],
     extras_require={
         'docs': ['sphinx', 'sphinx-bluebrain-theme'],
         'plots': ["matplotlib>=3.0.0"],
+        'tools': ['bglibpy>=4.4.26', 'morph-tool>=2.3.0'],
     },
     packages=find_packages(),
     use_scm_version=True,
